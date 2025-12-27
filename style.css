@@ -8,21 +8,27 @@
     width: 80%;
 }
 
-
 body {
   font-family: "Montserrat", sans-serif;
 }
-
 
 /* header section */
 
 header{
     position: fixed;
     top: 0px;
-    display: flex;
-    justify-content: space-between;
     height: 91px;
     z-index: 1;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__container__container{
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1{
@@ -35,7 +41,7 @@ header h1{
     display: flex;
     align-items: center;
     width: 815px;
-    top: 16px;
+    top: -4px;
 }
 
 .links__container{
@@ -199,7 +205,6 @@ main{
 }
 
 .card p{
-    
     line-height: 20px;
     letter-spacing: 0.2px;
     font-size: 14px;
@@ -267,7 +272,7 @@ main{
 }
 
 .client__text h2{
-        line-height: 50px;
+    line-height: 50px;
     letter-spacing: 0.2px;
     font-size: 40px;
     font-weight:bold;
@@ -275,7 +280,7 @@ main{
 }
 
 .client__text p{
-        line-height: 20px;
+    line-height: 20px;
     letter-spacing: 0.2px;
     font-size: 14px;
     color: #737373;
@@ -283,7 +288,7 @@ main{
 }
 
 .client__text a{
-  line-height: 24px;
+    line-height: 24px;
     letter-spacing: 0.2px;
     font-size: 14px;
     color: #96BB7C;
